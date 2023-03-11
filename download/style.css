@@ -129,6 +129,7 @@ button#download-game:hover {
 .footer-btn {
     display: flex;
 
+    padding-left: 18px;
     margin-top: 151px;
 }
 

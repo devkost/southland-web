@@ -102,6 +102,7 @@ footer {
 .footer-btn {
     display: flex;
 
+    padding-left: 18px;
     margin-top: 320px;
 }
 
