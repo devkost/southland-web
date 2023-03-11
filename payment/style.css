@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #202020;
+    background-image: url( "https://i.imgur.com/XL607cM.png" );
+    background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 815px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 48px;
+}
+
+/* Main */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-info {
+    margin-top: 290px;
+
+    color: #FFFFFF;
+}
+
+.m-head-text {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.m-head-text span {
+    color: #F98B06;
+}
+
+.m-head-h1 {
+    margin-top: 20px;
+
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.m-back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button#back-game {
+    width: 235px;
+    height: 60px;
+
+    background-color: #F98B06;
+    border-radius: 7px;
+    border-color: transparent;
+    color: #FFFFFF;
+
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 46px;
+}
+
+button#back-game:hover {
+    background-color: rgba( 249, 139, 6, 0.8 );
+    color: rgba( 255, 255, 255, 0.8 );
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn {
+    display: flex;
+
+    margin-top: 320px;
+}
+
+.footer-btn-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 23px;
+
+    width: 46px;
+    height: 46px;
+
+    margin-right: 18px;
+
+    background-color: #292929;
+}
+
+.footer-btn-contact:hover {
+    background-color: rgba( 41, 41, 41, 0.6 );
+}

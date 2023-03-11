@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #202020;
+    background-image: url( "https://i.imgur.com/XL607cM.png" );
+    background-size: 100%;
+}
+
+.container {
+    max-width: 1527px;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 105px;
+}
+
+.logo {
+    max-width: 112px;
+    width: 100%;
+    max-height: 57px;
+    height: 100%;
+
+    background-image: url( "https://i.imgur.com/YIf25HD.png" );
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-info {
+    color: #FFFFFF;
+
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 30px;
+}

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #202020;
+    background-image: url( "https://i.imgur.com/XL607cM.png" );
+    background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1530px;
+}
+
+/* Header */
+.header {
+    display: flex;
+}
+
+.logo {
+    margin-top: 48px;
+}
+
+.btn-contact {
+    display: flex;
+    flex: 1 1 auto;
+    align-self: flex-start;
+    align-items: right;
+    justify-content: right;
+
+    margin-top: 48px;
+    margin-right: 60px;
+}
+
+button#contact {
+    width: 175px;
+    height: 45px;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #F98B06;
+    color: #F98B06;
+
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+button#contact:hover {
+    border-color: rgba( 249, 139, 6, 0.8 );
+    color: rgba( 249, 139, 6, 0.8 );
+}
+
+/* Main */
+.main {
+    display: flex;
+}
+
+.m-download {
+    width: 543px;
+
+    margin-top: 290px;
+
+    color: #FFFFFF;
+}
+
+.m-head-text {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.m-head-text span {
+    color: #F98B06;
+}
+
+.m-head-h1 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 14px;
+}
+
+button#download-game {
+    width: 235px;
+    height: 60px;
+
+    background-color: #F98B06;
+    border-radius: 7px;
+    border-color: transparent;
+    color: #FFFFFF;
+
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 20px;
+}
+
+button#download-game:hover {
+    background-color: rgba( 249, 139, 6, 0.8 );
+    color: rgba( 255, 255, 255, 0.8 );
+}
+
+.m-icon {
+    margin-left: 355px;
+    margin-top: 181px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn {
+    display: flex;
+
+    margin-top: 151px;
+}
+
+.footer-btn-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 23px;
+
+    width: 46px;
+    height: 46px;
+
+    margin-right: 18px;
+
+    background-color: #292929;
+}
+
+.footer-btn-contact:hover {
+    background-color: rgba( 41, 41, 41, 0.6 );
+}
